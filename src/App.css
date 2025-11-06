@@ -1,0 +1,92 @@
+.advertisement-topbar {
+  height: 300px;
+  background-size: cover;      /* fills the div, crops if needed */
+  background-position: center; /* centers the image */
+  background-repeat: no-repeat; /* prevents tiling */
+}
+
+.top-bar {
+  text-align: center;
+  width: 800px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 2px solid rgba(5, 5, 5, 0.3);
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2); /* semi-transparent overlay */
+  backdrop-filter: blur(10px);           /* 🔥 blur effect */
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.inner-cotaint-search-bar{
+  margin-top: 6px;
+}
+
+.search-tab{
+  height: 35px;
+  width: 400px;
+  margin-left: 60px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(5, 5, 5, 0.3);
+}
+
+.signup-btn {
+  height: 35px;
+  padding: 5px;
+  border: 1px solid rgba(5, 5, 5, 0.3);
+}
+.login-btn {
+  height: 35px;
+  padding: 5px;
+  border: 1px solid rgba(5, 5, 5, 0.3);
+}
+
+button{
+  width: 80px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.product-catagory{
+ background-color: rgb(71, 225, 225);
+}
+
+.footbar-display{
+ background-color: bisque;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #d3f1f9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

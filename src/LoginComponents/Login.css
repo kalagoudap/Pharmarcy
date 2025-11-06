@@ -1,0 +1,44 @@
+.login-page {
+  text-align: center;
+  width: 400px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(5px); 
+  background-color: white;
+  opacity: 1;
+  color: rgb(43, 125, 220);
+}
+
+#sidebar{
+  display: none;
+}
+
+.login-sub-title{
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: none; /* Remove all default borders */
+  border-bottom: 2px solid #77b5f7;
+}
+
+.login-title {
+  border: none; /* Remove all default borders */
+  border-bottom: 2px solid #77b5f7;
+}
+
+#email {
+    text-align: left;
+}
+
+.email-site{
+    padding-top: 25px;
+}
+
+.send-btn{
+  padding-top: 10px;
+}
